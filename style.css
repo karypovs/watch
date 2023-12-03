@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#hero{
+    background: #F8F8F8;
+    padding: 100px 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
+.text-content span{
+color: var(--, #161515);
+font-size: 24px;
+font-weight: 300;
+
+}
+.text-content h1{
+    
+color: #272727;
+font-size: 250px;
+font-weight: 300;
+line-height: normal;
+}
+.text-content p{
+color: #161515;
+font-size: 32px;
+font-weight: 300;
+line-height: 155%; /* 49.6px */
+}
+.buttons{
+    display: flex;
+    margin-top: 70px;
+}
+.buttons button{
+    padding: 30px 72px;
+    font-size: 32px;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+
+}
+.black{
+    background: #161515;
+    color: #F8F8F8;
+}
+.white{
+    padding: 30px 27px !important;
+}
+
+.popular-content h3{
+color: #000;
+text-align: center;
+font-size: 24px;
+font-weight: 300;
+margin-top: 50px;
+}
+
+.popular-content h1{
+    color: #000;
+text-align: center;
+font-size: 72px;
+font-weight: 400;
+}
+
+.whatch-block{
+width: 417px;
+height: 630px;
+background: #F8F8F8;
+padding: 110px 70px;
+margin-top: 84px;
+}
+.flex-block{
+    display: flex;
+    justify-content: center;
+}
+
+.popular-text{
+    display: flex;
+    justify-content: center;
+}
+.text h2{
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.text{
+    margin:80px 0;
+}
+
+.text p{
+color: #161515;
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+line-height: 155%; /* 49.6px */
+max-width: 531px;
+}
+.watch-content h1{
+    color: #161515;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+margin-top: 39px;
+}
+.text1 p{
+    color: #161515;
+text-align: center;
+font-size: 32px;
+font-weight: 300;
+max-width: 510px;
+line-height: 155%; /* 49.6px */
+margin-left: 319px;
+margin-top: 29px;
+}
+.watch-content img{
+    display: flex;
+    justify-content: center;
+    margin-left: 330px;
+    background: #F8F8F8;
+    padding: 45px 100px;
+}
+.product h1{
+    color: var(--, #161515);
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 186%; /* 59.52px */
+margin-top: 59px;
+}
+.line {
+    display: flex;
+    margin-top: 9px;
+    margin-left: 477px;
+    width: 178.025px;
+    height: 1px;
+    background: #707070;
+}
+.product p{
+    color: var(--, #161515);
+text-align: center;
+margin-left: 315px;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+width: 515px;
+line-height: 170%; /* 40.8px */
+height: 231px;
+flex-shrink: 0;
+margin-top: 58px;
+width: 515px;
+height: 231px;
+flex-shrink: 0;
+}
